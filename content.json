@@ -1,10 +1,10 @@
 {
   "images": {
-    "logoSrc": "placeholder.svg",
+    "logoSrc": "logo.png",
     "hero": "placeholder.svg",
     "about": "placeholder.svg",
-    "favicon": "placeholder.svg",
-    "ogImage": "placeholder.svg",
+    "favicon": "logo.png",
+    "ogImage": "logo.png",
     "gallery": [
       "placeholder.svg",
       "placeholder.svg",
@@ -17,8 +17,8 @@
   "navbar": {
     "logo": { "fr": "Leo Giraud", "en": "Leo Giraud" },
     "links": [
-      { "label": { "fr": "Galerie", "en": "Gallery" }, "href": "#gallery" },
       { "label": { "fr": "Outils", "en": "Tools" }, "href": "#tools" },
+      { "label": { "fr": "Galerie", "en": "Gallery" }, "href": "#gallery" },
       { "label": { "fr": "Parcours", "en": "Process" }, "href": "#process" },
       { "label": { "fr": "À propos", "en": "About" }, "href": "#about" }
     ],
