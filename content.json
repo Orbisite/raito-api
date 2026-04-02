@@ -2,195 +2,180 @@
   "images": {
     "logoSrc": "placeholder.svg",
     "hero": "placeholder.svg",
+    "about": "placeholder.svg",
     "favicon": "placeholder.svg",
     "ogImage": "placeholder.svg",
-    "bento": ["placeholder.svg", "placeholder.svg", "placeholder.svg"],
-    "testimonialAvatars": ["placeholder.svg", "placeholder.svg", "placeholder.svg"]
+    "gallery": [
+      "placeholder.svg",
+      "placeholder.svg",
+      "placeholder.svg",
+      "placeholder.svg",
+      "placeholder.svg",
+      "placeholder.svg"
+    ]
   },
   "navbar": {
     "logo": { "fr": "Leo Giraud", "en": "Leo Giraud" },
     "links": [
-      { "label": { "fr": "Travaux", "en": "Work" }, "href": "#showcase" },
-      { "label": { "fr": "Compétences", "en": "Skills" }, "href": "#skills" },
-      { "label": { "fr": "Prestations", "en": "Services" }, "href": "#pricing" },
-      { "label": { "fr": "Avis", "en": "Testimonials" }, "href": "#testimonials" }
+      { "label": { "fr": "Galerie", "en": "Gallery" }, "href": "#gallery" },
+      { "label": { "fr": "Outils", "en": "Tools" }, "href": "#tools" },
+      { "label": { "fr": "Parcours", "en": "Process" }, "href": "#process" },
+      { "label": { "fr": "À propos", "en": "About" }, "href": "#about" }
     ],
-    "cta": { "fr": "Me contacter", "en": "Get in touch" },
+    "cta": { "fr": "Contact", "en": "Contact" },
     "ctaHref": "#contact",
     "menu": { "fr": "Menu", "en": "Menu" },
     "close": { "fr": "Fermer", "en": "Close" }
   },
   "hero": {
+    "eyebrow": { "fr": "Artiste 3D", "en": "3D artist" },
     "title": {
-      "fr": "Artiste 3D — personnages & environnements",
-      "en": "3D artist — characters & environments"
+      "fr": "Formes, lumière & matière",
+      "en": "Form, light & material"
     },
     "subtitle": {
-      "fr": "Je conçois des assets et des séquences pour le jeu vidéo, la pub et la fiction : modélisation, sculpt digital, UV, textures PBR et rendu.",
-      "en": "I craft assets and shots for games, advertising, and narrative projects — modeling, digital sculpt, UVs, PBR texturing, and rendering."
+      "fr": "Personnages, environnements et assets pour le jeu, la fiction visuelle et la pub. Je sculpte, texture et rend avec une obsession du détail.",
+      "en": "Characters, environments, and assets for games, narrative visuals, and advertising. I sculpt, texture, and render with a detail-first mindset."
     },
-    "cta": { "fr": "Voir les travaux", "en": "View work" },
-    "ctaHref": "#showcase",
+    "cta": { "fr": "Parcourir la galerie", "en": "Browse the gallery" },
+    "ctaHref": "#gallery",
     "imageAlt": {
-      "fr": "Aperçu d’un projet 3D",
-      "en": "3D project preview"
+      "fr": "Travail 3D sélectionné",
+      "en": "Selected 3D work"
     }
   },
-  "features": {
-    "sectionId": "skills",
-    "title": { "fr": "Ce que je fais", "en": "What I do" },
+  "logoCloud": {
+    "eyebrow": { "fr": "Pipeline", "en": "Pipeline" },
+    "title": { "fr": "Outils & moteurs", "en": "Tools & engines" },
     "subtitle": {
-      "fr": "Un pipeline orienté qualité visuelle et intégration moteur (Unreal, Unity ou offline).",
-      "en": "A pipeline focused on visual quality and engine-ready delivery (Unreal, Unity, or offline rendering)."
+      "fr": "Stack typique — logos ou textes à personnaliser.",
+      "en": "Typical stack — swap for your own logos or labels."
+    },
+    "items": [
+      { "name": "Blender" },
+      { "name": "ZBrush" },
+      { "name": "Substance 3D" },
+      { "name": "Unreal Engine" },
+      { "name": "Unity" },
+      { "name": "Maya" }
+    ]
+  },
+  "gallery": {
+    "eyebrow": { "fr": "Sélection", "en": "Selected work" },
+    "title": { "fr": "Galerie", "en": "Gallery" },
+    "subtitle": {
+      "fr": "Remplacez les visuels dans img/ et la liste `images.gallery` dans content.json.",
+      "en": "Replace shots in img/ and the `images.gallery` list in content.json."
+    },
+    "captions": [
+      { "fr": "Personnage — look dev", "en": "Character — look dev" },
+      { "fr": "Environnement — lighting", "en": "Environment — lighting" },
+      { "fr": "Prop hero asset", "en": "Hero prop" },
+      { "fr": "Hard-surface study", "en": "Hard-surface study" },
+      { "fr": "Creature sculpt", "en": "Creature sculpt" },
+      { "fr": "Shading exploration", "en": "Shading exploration" }
+    ]
+  },
+  "features": {
+    "sectionId": "process",
+    "eyebrow": { "fr": "Méthode", "en": "Method" },
+    "title": { "fr": "Comment je travaille", "en": "How I work" },
+    "subtitle": {
+      "fr": "Un flux clair, des livrables propres pour intégration moteur ou rendu offline.",
+      "en": "A clear flow and clean deliverables for engine integration or offline rendering."
     },
     "items": [
       {
-        "icon": "code",
-        "title": { "fr": "Modélisation & sculpt", "en": "Modeling & sculpt" },
+        "icon": "target",
+        "title": { "fr": "Brief & références", "en": "Brief & refs" },
         "text": {
-          "fr": "Hard-surface et organique, topologie propre pour animation ou jeux.",
-          "en": "Hard-surface and organic work, clean topology for animation or real-time."
+          "fr": "Lecture des concepts, moodboards et contraintes techniques avant la première géo.",
+          "en": "Concept read, moodboards, and technical constraints before first geometry."
+        }
+      },
+      {
+        "icon": "code",
+        "title": { "fr": "Modélisation & UV", "en": "Modeling & UVs" },
+        "text": {
+          "fr": "Topologie adaptée (film, jeu, still). UVs logiques pour texturing PBR.",
+          "en": "Topology suited to film, games, or stills. Sensible UVs for PBR."
         }
       },
       {
         "icon": "palette",
-        "title": { "fr": "Look dev & matériaux", "en": "Look dev & materials" },
+        "title": { "fr": "Look dev", "en": "Look dev" },
         "text": {
-          "fr": "Textures PBR, shading et éclairage pour des rendus crédibles.",
-          "en": "PBR texturing, shading, and lighting for believable results."
-        }
-      },
-      {
-        "icon": "rocket",
-        "title": { "fr": "Rendu & livraison", "en": "Rendering & delivery" },
-        "text": {
-          "fr": "Images marketing, turntables, exports FBX/GLTF selon vos contraintes.",
-          "en": "Marketing stills, turntables, FBX/GLTF exports tailored to your pipeline."
+          "fr": "Textures, shaders, lumière — itérations rapides jusqu’au rendu final.",
+          "en": "Textures, shaders, lighting — fast iterations through final render."
         }
       }
     ]
   },
-  "bento": {
-    "title": { "fr": "Sélection de projets", "en": "Selected projects" },
-    "subtitle": {
-      "fr": "Quelques extraits — remplacez les images dans le dossier img/ et les textes ici.",
-      "en": "A few highlights — swap images in img/ and copy here."
+  "splitContent": {
+    "eyebrow": { "fr": "Bio", "en": "Bio" },
+    "title": { "fr": "À propos", "en": "About" },
+    "body": {
+      "fr": "Basé en France, je collabore avec des studios, des marques et des indés sur des visuels 3D. J’aime les silhouettes lisibles, les matériaux qui racontent une histoire, et les images qui tiennent la distance en gros plan.",
+      "en": "Based in France, I collaborate with studios, brands, and indies on 3D visuals. I care about readable silhouettes, materials that tell a story, and images that hold up in close-up."
     },
-    "note": {
-      "fr": "Disponible pour missions en régie ou au forfait.",
-      "en": "Available for day-rate or fixed-scope engagements."
+    "bullets": {
+      "fr": [
+        "Disponible pour projets séquence ou asset pack",
+        "Anglais & français",
+        "Fichiers source organisés et documentés"
+      ],
+      "en": [
+        "Available for sequence or asset-pack work",
+        "English & French",
+        "Organised, documented source files"
+      ]
+    }
+  },
+  "stats": {
+    "eyebrow": { "fr": "En chiffres", "en": "At a glance" },
+    "title": { "fr": "Volume & expérience", "en": "Volume & experience" },
+    "subtitle": {
+      "fr": "Indicatifs — à ajuster selon ton parcours réel.",
+      "en": "Illustrative — tune to your real track record."
     },
     "items": [
       {
-        "title": { "fr": "Personnage — fantasy", "en": "Character — fantasy" },
-        "text": { "fr": "Sculpt, retopo, textures.", "en": "Sculpt, retopo, textures." },
-        "href": "#",
-        "ctaText": { "fr": "Détail", "en": "Details" }
+        "label": { "fr": "Années de pratique", "en": "Years in 3D" },
+        "value": "8+",
+        "hint": { "fr": "Modo / jeu / freelance", "en": "Education / games / freelance" }
       },
       {
-        "title": { "fr": "Environnement intérieur", "en": "Interior environment" },
-        "text": { "fr": "Modular kit & lighting.", "en": "Modular kit & lighting." },
-        "href": "#",
-        "ctaText": { "fr": "Détail", "en": "Details" }
+        "label": { "fr": "Assets livrés", "en": "Assets shipped" },
+        "value": "120+",
+        "hint": { "fr": "Personnages, props, env.", "en": "Characters, props, env." }
       },
       {
-        "title": { "fr": "Prop hero asset", "en": "Hero prop asset" },
-        "text": { "fr": "High poly → game-ready.", "en": "High poly → game-ready." },
-        "href": "#",
-        "ctaText": { "fr": "Détail", "en": "Details" }
+        "label": { "fr": "Moteurs cibles", "en": "Target engines" },
+        "value": "UE / Unity",
+        "hint": { "fr": "PBR & pipelines studio", "en": "PBR & studio pipelines" }
       }
     ]
   },
-  "pricing": {
-    "highlightedPlan": 1,
-    "planCtaHref": "#contact",
-    "title": { "fr": "Collaborer", "en": "Work together" },
+  "ctaBanner": {
+    "eyebrow": { "fr": "Discutons", "en": "Let’s talk" },
+    "title": { "fr": "Un projet en tête ?", "en": "Got a project in mind?" },
     "subtitle": {
-      "fr": "Tarifs indicatifs — devis sur brief. TVA et droits d’usage à préciser selon le projet.",
-      "en": "Indicative rates — quote on brief. VAT and usage rights depend on the project."
+      "fr": "Envoyez un lien vers vos refs, vos délais et le format souhaité — je réponds sous quelques jours.",
+      "en": "Send refs, timeline, and deliverable format — I usually reply within a few days."
     },
-    "plans": [
-      {
-        "name": { "fr": "Journée", "en": "Day rate" },
-        "price": { "fr": "à partir de 450 EUR / jour", "en": "from 450 EUR / day" },
-        "description": {
-          "fr": "Idéal pour itérations, retouches ou missions courtes.",
-          "en": "Ideal for iterations, polish, or short missions."
-        },
-        "features": [
-          { "fr": "8 h de production ciblée", "en": "8h focused production" },
-          { "fr": "Livraison des fichiers source convenus", "en": "Delivery of agreed source files" },
-          { "fr": "1 cycle de retours inclus", "en": "One feedback round included" }
-        ],
-        "ctaText": { "fr": "Proposer une date", "en": "Propose a date" }
-      },
-      {
-        "name": { "fr": "Projet", "en": "Project" },
-        "price": { "fr": "sur devis", "en": "custom quote" },
-        "description": {
-          "fr": "Un personnage, un pack d’assets ou une petite séquence.",
-          "en": "A character, an asset pack, or a short sequence."
-        },
-        "features": [
-          { "fr": "Cahier des charges & jalons", "en": "Scope & milestones" },
-          { "fr": "Prévisualisations intermédiaires", "en": "Intermediate previews" },
-          { "fr": "Documentation de livraison", "en": "Delivery notes" }
-        ],
-        "ctaText": { "fr": "Envoyer un brief", "en": "Send a brief" }
-      },
-      {
-        "name": { "fr": "Régie longue", "en": "Long-term" },
-        "price": { "fr": "mensuel / studio", "en": "monthly / studio" },
-        "description": {
-          "fr": "Accompagnement sur plusieurs mois avec volume défini.",
-          "en": "Ongoing support over several months with agreed volume."
-        },
-        "features": [
-          { "fr": "Créneaux réservés", "en": "Reserved slots" },
-          { "fr": "Alignement sur votre outillage", "en": "Aligned with your toolchain" },
-          { "fr": "Priorité sur la file", "en": "Priority in the queue" }
-        ],
-        "ctaText": { "fr": "Discuter", "en": "Let’s talk" }
-      }
-    ]
-  },
-  "testimonials": {
-    "title": { "fr": "Ils en parlent", "en": "What clients say" },
-    "subtitle": {
-      "fr": "Remplacez par de vrais retours une fois les missions livrées.",
-      "en": "Replace with real quotes once projects ship."
-    },
-    "items": [
-      {
-        "name": { "fr": "Directrice de production", "en": "Line producer" },
-        "text": {
-          "fr": "« Réactif, le niveau de détail des assets était exactement ce qu’il fallait pour notre teaser. »",
-          "en": "“Responsive — the asset detail level was exactly what our teaser needed.”"
-        },
-        "rating": 5
-      },
-      {
-        "name": { "fr": "Lead artist — studio indie", "en": "Lead artist — indie studio" },
-        "text": {
-          "fr": "« Pipeline propre, fichiers bien nommés, intégration Unreal sans friction. »",
-          "en": "“Clean pipeline, sensible naming, frictionless Unreal integration.”"
-        },
-        "rating": 5
-      },
-      {
-        "name": { "fr": "Directeur artistique freelance", "en": "Freelance art director" },
-        "text": {
-          "fr": "« Bonne lecture des concept arts et itérations rapides sur le look. »",
-          "en": "“Strong read of concept art and fast iterations on the look.”"
-        },
-        "rating": 5
-      }
-    ]
+    "ctaText": { "fr": "Écrire un message", "en": "Send a message" },
+    "ctaHref": "mailto:contact@leogiraud.example",
+    "secondaryCtaText": { "fr": "ArtStation", "en": "ArtStation" },
+    "secondaryCtaHref": "https://www.artstation.com/"
   },
   "footer": {
+    "tagline": {
+      "fr": "Portfolio 3D — Leo Giraud",
+      "en": "3D portfolio — Leo Giraud"
+    },
     "privacy": { "fr": "Mentions légales", "en": "Legal" },
-    "terms": { "fr": "CGV", "en": "Terms" },
-    "contact": { "fr": "Contact", "en": "Contact" },
+    "terms": { "fr": "Crédits", "en": "Credits" },
+    "contact": { "fr": "Email", "en": "Email" },
     "linkHrefs": {
       "privacy": "#",
       "terms": "#",
@@ -202,8 +187,8 @@
       { "label": { "fr": "Instagram", "en": "Instagram" }, "href": "https://www.instagram.com/" }
     ],
     "copyright": {
-      "fr": "© 2026 Leo Giraud. Tous droits réservés.",
-      "en": "© 2026 Leo Giraud. All rights reserved."
+      "fr": "© 2026 Leo Giraud",
+      "en": "© 2026 Leo Giraud"
     }
   }
 }
