@@ -1,6 +1,6 @@
-# leo-giraud-api
+# raito-api
 
-Dépôt **statique** (JSON + images) pour le portfolio de **Leo Giraud** — artiste 3D. Consommé par [`leo-giraud`](../leo-giraud).
+Dépôt **statique** (JSON + images) pour le portfolio de **Raito** — artiste 3D. Consommé par [`raito`](../raito).
 
 ## Fichiers
 
@@ -13,10 +13,10 @@ Dépôt **statique** (JSON + images) pour le portfolio de **Leo Giraud** — art
 
 ## Publication
 
-1. Créer le dépôt GitHub `leo-giraud-api` (ou sous l’org **Orbisite**).
+1. Créer le dépôt GitHub `raito-api` (ou sous l’org **Orbisite**).
 2. Pousser ce dossier sur la branche `main`.
-3. Dans `leo-giraud`, copier `.env.example` → `.env.local` et mettre les URLs **raw** vers ce dépôt, par ex.  
-   `https://raw.githubusercontent.com/VOTRE_ORG/leo-giraud-api/main/content.json`  
+3. Dans `raito`, copier `.env.example` → `.env.local` et mettre les URLs **raw** vers ce dépôt, par ex.  
+   `https://raw.githubusercontent.com/VOTRE_ORG/raito-api/main/content.json`  
    et `VITE_API_IMG_BASE` = `…/main/img`.
 
 Les images référencées dans les JSON sont soit une **URL absolue**, soit un **nom de fichier** dans `img/`.

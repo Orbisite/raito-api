@@ -15,7 +15,7 @@
     ]
   },
   "navbar": {
-    "logo": { "fr": "Leo Giraud", "en": "Leo Giraud" },
+    "logo": { "fr": "Raito", "en": "Raito" },
     "links": [
       { "label": { "fr": "Outils", "en": "Tools" }, "href": "#tools" },
       { "label": { "fr": "Galerie", "en": "Gallery" }, "href": "#gallery" },
@@ -164,14 +164,14 @@
       "en": "Send refs, timeline, and deliverable format — I usually reply within a few days."
     },
     "ctaText": { "fr": "Écrire un message", "en": "Send a message" },
-    "ctaHref": "mailto:contact@leogiraud.example",
+    "ctaHref": "mailto:contact@raito.example",
     "secondaryCtaText": { "fr": "ArtStation", "en": "ArtStation" },
     "secondaryCtaHref": "https://www.artstation.com/"
   },
   "footer": {
     "tagline": {
-      "fr": "Portfolio 3D — Leo Giraud",
-      "en": "3D portfolio — Leo Giraud"
+      "fr": "Portfolio 3D — Raito",
+      "en": "3D portfolio — Raito"
     },
     "privacy": { "fr": "Mentions légales", "en": "Legal" },
     "terms": { "fr": "Crédits", "en": "Credits" },
@@ -179,7 +179,7 @@
     "linkHrefs": {
       "privacy": "#",
       "terms": "#",
-      "contact": "mailto:contact@leogiraud.example"
+      "contact": "mailto:contact@raito.example"
     },
     "socials": [
       { "label": { "fr": "ArtStation", "en": "ArtStation" }, "href": "https://www.artstation.com/" },
@@ -187,8 +187,8 @@
       { "label": { "fr": "Instagram", "en": "Instagram" }, "href": "https://www.instagram.com/" }
     ],
     "copyright": {
-      "fr": "© 2026 Leo Giraud",
-      "en": "© 2026 Leo Giraud"
+      "fr": "© 2026 Raito",
+      "en": "© 2026 Raito"
     }
   }
 }

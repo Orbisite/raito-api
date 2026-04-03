@@ -1,18 +1,18 @@
 {
-  "title": "Leo Giraud — Artiste 3D",
+  "title": "Raito — Artiste 3D",
   "description": "Portfolio : personnages, environnements et assets 3D pour jeux, cinéma et visuels.",
-  "canonicalUrl": "https://example.com/",
+  "canonicalUrl": "https://orbisite.github.io/raito/",
   "og": {
     "type": "website",
-    "url": "https://example.com/",
-    "title": "Leo Giraud — Artiste 3D",
+    "url": "https://orbisite.github.io/raito/",
+    "title": "Raito — Artiste 3D",
     "description": "Modélisation, sculpt, look dev et rendu — portfolio sélectionné.",
     "locale": "fr_FR",
     "image": "placeholder.svg"
   },
   "twitter": {
     "card": "summary_large_image",
-    "title": "Leo Giraud — Artiste 3D",
+    "title": "Raito — Artiste 3D",
     "description": "Modélisation, sculpt, look dev et rendu — portfolio sélectionné.",
     "image": "placeholder.svg"
   },
